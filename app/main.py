@@ -7,7 +7,6 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# verificação do projeto - tópico 3/ Etapa 1 
 
 class TaskCreate(BaseModel):
     """Dados recebidos para criar uma tarefa."""
